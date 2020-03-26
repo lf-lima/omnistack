@@ -10,6 +10,5 @@ import './styles.css';
 export default function Logon(){
     return (//retorna objetos html
         <h1>Page Logon</h1>
-        
     )
 };
