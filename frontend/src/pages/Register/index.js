@@ -35,11 +35,8 @@ export default function Register() {
             name,
             email,
             whatsapp,
-
-
-            
             city,
-            uf
+            uf,
         };
 
         //se ele conseguir enviar os dados OK
