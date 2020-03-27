@@ -9,4 +9,4 @@ const api = axios.create({
 
 export default api; //para outros arquivos conseguirem importar essa url
 
-//api.tipoDaRota('rota', { headers: {}})
+//api.tipoDaRota('rota', data,{ headers: {}})
