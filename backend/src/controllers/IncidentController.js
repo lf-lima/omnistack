@@ -65,12 +65,12 @@ module.exports = {
         .select('ong_id')//seleciona apenas a coluna ong_id do incident
         .first();//retorna apenas um resultado (como existe só 1 incident com esse id ja iria retornar 1)
         
-        //se o incident nao existir
-        if(!incident) {
-            //retorna msg de erro
-            //http status code 400 => bad request
-            return res.status(400).json({ error: "Incident dont exist"});
-        }
+        // //se o incident nao existir
+        // if(!incident) {
+        //     //retorna msg de erro
+        //     //http status code 400 => bad request
+        //     return res.status(400).json({ error: "Incident dont exist"});
+        // }
 
         //se o id da ong registrado no incident a ser deletado
         //for diferente do id da ong logada

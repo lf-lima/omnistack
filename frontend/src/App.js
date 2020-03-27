@@ -1,9 +1,10 @@
 //COMPONENTE REACT
 //toda funcao e arquivo de componente deve comecar em letra maiuscula se nao, nao funciona
-import React, { useState } from 'react';//importando useState para ser possivel fazer alteracoes de variaveis
+import React from 'react';
 
-//IMPORTANDO COMPONENTES
-import Logon from './pages/Logon';//nao precisa chamar o index porq ele sempre procura por index.js quando entra em uma pasta
+
+//IMPORTANDO COMPONENTE DE ROTAS
+import Routes from './routes';
 
 //importando css
 import './global.css'
@@ -19,9 +20,7 @@ function App() { //LIVE RELOAD => QUANDO O ARQUIVO É ALTERADO ELE MUDA NA HORA 
   // }
 
   return (
-    //No react sempre deve haver um elemento envolvendo os outros se nao da erro
-    
-    <Logon />
+    <Routes />
   );
 }
 

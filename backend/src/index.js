@@ -3,7 +3,6 @@
 
 //figma para layouts
 //notion para anotacoes
-
 const express = require("express");
 const cors = require("cors");
 const routes = require("./routes")
