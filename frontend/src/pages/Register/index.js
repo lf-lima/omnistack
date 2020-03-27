@@ -35,6 +35,9 @@ export default function Register() {
             name,
             email,
             whatsapp,
+
+
+            
             city,
             uf
         };
