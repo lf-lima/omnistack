@@ -34,6 +34,10 @@ export default function Register() {
         const data = {
             name,
             email,
+
+
+
+            
             whatsapp,
             city,
             uf,
