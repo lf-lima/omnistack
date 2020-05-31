@@ -6,8 +6,7 @@
 const express = require("express");
 const cors = require("cors");
 
-
-const routes = require("./routes")
+const routes = require("./routes");
 const app = express();
 
 //serve para q filtrar quem vai receber dados do meu backend
@@ -17,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 //ROTAS ABAIXO DISSO ^
-app.use(routes)
+app.use(routes);
 
 //SPA - SINGLE PAGE APLICATION
 //só leva dados como resposta
@@ -68,19 +67,16 @@ app.use(routes)
 */
 
 //Query
-    //funciona como filtro pq retorna um obejto json e o banco trabalha com json, é só colocar esse objeto no filtro
-    //const params = req.query;
+//funciona como filtro pq retorna um obejto json e o banco trabalha com json, é só colocar esse objeto no filtro
+//const params = req.query;
 
-    //Route params
-    //const params = req.params;
+//Route params
+//const params = req.params;
 
-    //Request Body
-    //const params = req.body;
+//Request Body
+//const params = req.body;
 
-
-
-
-app.listen(3333, ()=>{
-    console.log(">> SERVER ON <<");
-    console.log("http://localhost:3333/");
+app.listen(3333, () => {
+  console.log(">> SERVER ON <<");
+  console.log("http://localhost:3333/");
 });
